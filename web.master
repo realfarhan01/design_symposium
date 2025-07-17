@@ -1,0 +1,389 @@
+﻿<%@ Master Language="VB" CodeFile="web.master.vb" Inherits="web" %>
+<!DOCTYPE html>
+<html>
+   <head runat="server">
+      <title>Design-Symposium</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+      <meta charset="utf-8">
+      <link rel="icon" type="image/x-icon" href="assets/images/favicon/logo.png">
+      <link rel="manifest" href="assets/images/favicon/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="../ms-icon-144x144.html">
+      <meta name="theme-color" content="#ffffff">
+      <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="assets/js/bootstrap.min.js">
+      <link rel="stylesheet" href="assets/css/all.min.css">
+      <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+      <link href="assets/css/custom-style.css" rel="stylesheet" type="text/css">
+      <link href="assets/css/special-classes.css" rel="stylesheet" type="text/css">
+      <link href="assets/css/responsive.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+      <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="assets/css/magnific-popup.css">
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+      <link href="assets/css/aos.css" rel="stylesheet">
+      <style>
+         .gm-style .place-card-large div {
+            display: none;
+         }
+         .header {
+            transition: opacity 0.4s ease, transform 0.4s ease;
+         }
+         .sticky {
+            position: fixed !important;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 999;
+            background: #000000e8;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            opacity: 1;
+            transform: translateY(0);
+         }
+         .hidden-sticky {
+            opacity: 0;
+            transform: translateY(-20px);
+         }
+         .header-placeholder {
+            transition: height 0.4s ease;
+            height: 0;
+         }
+         .banner-logo img {
+            transition: all 0.3s ease;
+         }
+         .header.sticky .banner-logo img {
+            width: 90px !important;
+         }
+      </style>
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17095180423"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
+
+          function gtag() {
+              dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
+          gtag('config', 'AW-17095180423');
+      </script>
+      <asp:ContentPlaceHolder id="head" runat="server"></asp:ContentPlaceHolder>
+   </head>
+   <body>
+      <form id="form1" runat="server">
+         <div class="banner_outer">
+            <header class="header">
+               <div class="main-header">
+                  <div class="container-fluid">
+                     <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="/">
+                           <figure class="mb-0 banner-logo">
+                              <img src="assets/images/logo.png" alt="" class="img-fluid">
+                           </figure>
+                        </a>
+                        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                           <span class="navbar-toggler-icon"></span>
+                           <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                           <ul class="navbar-nav ml-auto">
+                              <li class="nav-space nav-item dropdown">
+                                 <a class="nav-link dropdown-toggle dropdown-color navbar-text-color" href="#." id="navbarDropdownMenu2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Project </a>
+                                 <div class="dropdown-menu drop-down-content">
+                                    <ul class="list-unstyled drop-down-pages">
+                                       <li class="nav-item">
+                                          <a class="dropdown-item nav-link" href="architecture">Architecture</a>
+                                       </li>
+                                       <li class="nav-item">
+                                          <a class="dropdown-item nav-link" href="interior-design">Interior Design</a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="design-build">Design | Build</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="process">Process</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="studio">Studio</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="contact">Contact Us</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </header>
+             <%-- <a class="callus" href="tel:+917838250379">
+			<lord-icon
+                src="https://cdn.lordicon.com/tftaqjwp.json"
+                trigger="loop"
+                delay="1500"
+                colors="primary:#b4b4b4"
+                style="width:50px;height:50px;position:fixed;z-index:999;right:2%;bottom:20%;">
+            </lord-icon>
+			</a>
+			<a class="whatapp" href="https://wa.me/+919352210838?text=Hello, I am looking for Best Design Symposium in Jaipur" target="_blank">
+				<img src="assets/images/whatapp.gif" alt="Best Design Symposium" title="Best Design Symposium" class="" style="width:60px;">
+			</a> --%>
+         </div>
+         <div>
+            <asp:ContentPlaceHolder id="body" runat="server"></asp:ContentPlaceHolder>
+         </div>
+         <section class="footer-section">
+            <div class="container">
+               <div class="middle-portion">
+                  <div class="row">
+                     <div class="col-lg-8">
+                        <div class="links">
+                           <ul class="text-size-16 d-md-flex d-block">
+                              <li>
+                                 <a href="architecture">Architecture</a>
+                              </li>
+                              <li>
+                                 <a href="interior-design">Interior Design</a>
+                              </li>
+                              <li>
+                                 <a href="design-build">Design | Build</a>
+                              </li>
+                              <li>
+                                 <a href="process">Process</a>
+                              </li>
+                              <li>
+                                 <a href="studio">Studio</a>
+                              </li>
+                              <li>
+                                 <a href="contact">Contact Us</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <ul class="footer-social-media float-start float-md-right">
+                           <li>
+                              <a href="tel:+917838250379">
+                                 <i class="fa fa-phone"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="https://wa.me/+919352210838?text=Hello, I am looking for Best Design Symposium in Jaipur">
+                                 <i class="fa-brands fa-whatsapp"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                                 <i class="fa-brands fa-facebook"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                                 <i class="fa-brands fa-instagram"></i>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="col-lg-12 mt-4">
+                        <div class="links">
+                           <div class="row">
+                              <div class="col-md-2">
+                                 <h4 class="text-white">Contact Info:</h4>
+                              </div>
+                              <div class="col-md-10">
+                                 <div class="row">
+                                    <div class="col-md-3">
+                                       <div class="lower-content">
+                                          <figure class="icon">
+                                             <img src="assets/images/footer-callicon.png" alt="">
+                                          </figure>
+                                          <div class="content text-size-16">
+                                             <span class="text-size-16">Call us at:</span>
+                                             <a class="text-size-16 mb-0 text-decoration-none" href="tel:+917838250379">+91 783-825-0379</a>
+                                             <br>
+                                             <a class="text-size-16 mb-0 text-decoration-none" href="tel:+919352210838">+91 935-221-0838</a>
+                                             <br />
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                       <div class="lower-content">
+                                          <figure class="icon">
+                                             <img src="assets/images/footer-locationicon.png" alt="">
+                                          </figure>
+                                          <div class="content text-size-16">
+                                             <span class="text-size-16">Our Location:</span>
+                                             <p class="text text-size-16">
+                                                <a href="https://maps.app.goo.gl/vGfUthPwKcpKuqEj8" target="_blank"> 91, Shanti niketan Colony, Barkat Nagar Tonk Road, Jaipur 302015</a>
+                                             </p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                       <div class="lower-content">
+                                          <figure class="icon icon3">
+                                             <img src="assets/images/footer-emailicon.png" alt="">
+                                          </figure>
+                                          <div class="content text-size-16">
+                                             <span class="text-size-16">Email us at:</span>
+                                             <a href="mailto:contact@thedesignsymposium.com" class="text-size-16 mb-0 text-decoration-none">contact@thedesignsymposium.com</a>
+                                             <br>
+                                             <a href="mailto:jobs@thedesignsymposium.com" class="text-size-16 mb-0 text-decoration-none">jobs@thedesignsymposium.com</a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-6 text-md-left text-center">
+                        <p style="font-size: 14px;">Copyright © 2023-2025 <a href="/" style="color:#e4ac04;">Design Symposium</a> All rights reserved. </p>
+                     </div>
+                     <div class="col-md-6 text-md-right text-center" style="z-index: 999;position: relative;">
+                        <p class="text-white" style="font-size: 14px;">Design & Development By <a href="https://www.aspiretechnosys.com/" style="color:#e4ac04;" target="_blank">ASPIRE TECHNOSYS PVT LTD.</a>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+       <%--<div class="g-recaptcha"
+        data-sitekey="6LfWi2AnAAAAADiKjvzPZRPIYRZ7cp8rWAyRa1iS"
+        data-size="invisible"></div>
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>--%> 
+         <script src="assets/js/jquery-3.6.0.min.js"></script>
+         <script src="assets/js/bootstrap.min.js"></script>
+         <script src="assets/js/video_link.js"></script>
+         <script src="assets/js/video.js"></script>
+         <script src="assets/js/counter.js"></script>
+         <script src="assets/js/owl.carousel.js"></script>
+         <script src="assets/js/custom-carousel.js"></script>
+         <script src="assets/js/custom.js"></script>
+         <script src="assets/js/animation_links.js"></script>
+         <script src="assets/js/animation.js"></script>
+         <script src="assets/js/swiper-bundle.min.js"></script>
+         <script src="assets/js/jquery.easypiechart.min.js"></script>
+         <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+         <script src="assets/js/jquery.min.js"></script>
+         <script src="assets/js/js/magnific.popup.min.js"></script>
+         <script src="assets/js/js/imagesloaded.pkgd.js"></script>
+         <script src="assets/js/js/isotope.pkgd.min.js"></script>
+         <script src="assets/js/js/custom.js"></script>
+         <script>
+             // Disable right-click
+             document.addEventListener('contextmenu', (e) => e.preventDefault());
+
+             function ctrlShiftKey(e, keyCode) {
+                 return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+             }
+             document.onkeydown = (e) => {
+                 // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U
+                 if (event.keyCode === 123 || ctrlShiftKey(e, 'I') || ctrlShiftKey(e, 'J') || ctrlShiftKey(e, 'C') || (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))) return false;
+             };
+             $('body').bind('copy paste', function (e) {
+                 e.preventDefault();
+                 return false;
+             });
+             window.ondragstart = function () {
+                 return false;
+             }
+
+             function disableSelect(event) {
+                 event.preventDefault();
+             }
+
+             function startDrag(event) {
+                 window.addEventListener('mouseup', onDragEnd);
+                 window.addEventListener('selectstart', disableSelect);
+                 // ... my other code
+             }
+
+             function onDragEnd() {
+                 window.removeEventListener('mouseup', onDragEnd);
+                 window.removeEventListener('selectstart', disableSelect);
+                 // ... my other code
+             }
+         </script>
+         <script>
+             const header = document.querySelector('.header');
+             const placeholder = document.createElement('div');
+             let isSticky = false;
+             let ticking = false;
+
+             window.addEventListener('DOMContentLoaded', () => {
+                 const headerHeight = header.offsetHeight;
+                 placeholder.style.height = headerHeight + 'px';
+                 placeholder.style.display = 'none';
+                 header.parentNode.insertBefore(placeholder, header.nextSibling);
+             });
+
+             function showPlaceholder() {
+                 placeholder.style.display = 'block';
+             }
+
+             function hidePlaceholder() {
+                 placeholder.style.display = 'none';
+             }
+
+             function onScroll() {
+                 const scrollY = window.scrollY;
+
+                 if (scrollY > 50 && !isSticky) {
+                     isSticky = true;
+
+                     // 🟢 Make it sticky and fade in
+                     header.classList.add('sticky');
+                     showPlaceholder();
+
+                     // ✅ Ensure transition works when scrolling down
+                     header.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+                     header.style.opacity = '0';
+                     header.style.transform = 'translateY(-20px)';
+
+                     void header.offsetWidth;
+
+                     header.style.opacity = '1';
+                     header.style.transform = 'translateY(0)';
+
+                 } else if (scrollY <= 100 && isSticky) {
+                     isSticky = false;
+
+                     // ❌ Disable transition first to prevent fade
+                     header.style.transition = 'none';
+                     header.style.opacity = '0';
+                     header.style.transform = 'translateY(-20px)';
+
+                     setTimeout(() => {
+                         if (!isSticky) {
+                             header.classList.remove('sticky');
+                             header.style.opacity = '';
+                             header.style.transform = '';
+                             header.style.transition = '';
+                             hidePlaceholder();
+                         }
+                     }, 0); // no delay
+                 }
+
+                 ticking = false;
+             }
+
+             window.addEventListener('scroll', () => {
+                 if (!ticking) {
+                     window.requestAnimationFrame(onScroll);
+                     ticking = true;
+                 }
+             });
+         </script>
+
+      </form>
+   </body>
+</html>

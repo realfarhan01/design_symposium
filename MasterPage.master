@@ -1,0 +1,249 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+        <title>Design-Symposium</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <meta charset="utf-8">
+        <link rel="icon" type="image/x-icon" href="assets/images/favicon/logo.png">
+        <link rel="manifest" href="assets/images/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="../ms-icon-144x144.html">
+        <meta name="theme-color" content="#ffffff">
+        <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/js/bootstrap.min.js">
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/custom-style.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/special-classes.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/responsive.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">     
+        <link href="assets/css/aos.css" rel="stylesheet">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+     <div class="banner_outer">
+        <header class="header">
+            <div class="main-header">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="/"><figure class="mb-0 banner-logo"><img src="assets/images/logo.png" alt="" class="img-fluid"></figure></a>
+                        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto index-header">
+                                <%--<li class="nav-item">
+                                    <a class="nav-link" href="/">Home</a>
+                                </li>--%>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="studio">Studio</a>
+                                </li>
+                                <li class="nav-space nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle dropdown-color navbar-text-color" href="project" id="navbarDropdownMenu2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Project </a>
+                                    <div class="dropdown-menu drop-down-content">
+                                        <ul class="list-unstyled drop-down-pages">
+                                            <li class="nav-item">
+                                                <a class="dropdown-item nav-link" href="architecture-design">Architectural Design</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="dropdown-item nav-link" href="interior-design">Interior Design</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="dropdown-item nav-link" href="urban-town-planning">Urban / Town Planning</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="dropdown-item nav-link" href="landscape-design">Landscape Design</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="dropdown-item nav-link" href="furniture-art-installation">Furniture Design & Art Installation </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="dropdown-item nav-link" href="turnkey-construction-vaastu">Turnkey /Construction / Vaastu</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="dropdown-item nav-link" href="project-management">Project Management</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="design-build">Design | Build</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="process">Process</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <a class="callus" href="tel:+917838250379">
+        <lord-icon
+            src="https://cdn.lordicon.com/tftaqjwp.json"
+            trigger="loop"
+            delay="1500"
+            colors="primary:#b4b4b4"
+            style="width:50px;height:50px;position:fixed;z-index:999;right:2%;bottom:20%;">
+        </lord-icon>
+        </a>
+        <a class="whatapp" href="https://wa.me/+919352210838?text=Hello, I am looking for Best Design Symposium in Jaipur" target="_blank">
+            <img src="assets/images/whatapp.gif" alt="Best Design Symposium" title="Best Design Symposium" class="" style="width:60px;">
+        </a>         
+    </div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <section class="footer-section">
+        <div class="container">
+            <div class="middle-portion">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14235.508416340912!2d75.77099398715822!3d26.875645400000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5d75774cfc9%3A0x212621d527e314c6!2sDesign%20Symposium%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1686310238151!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="links">
+                            <h4 class="text-white">Usful Links:</h4>
+                            <ul style="padding-left: 10px; line-height:40px;" class="text-size-16">
+                                <%--<li>
+                                    <a href="/">Home</a>
+                                </li>--%>
+                                <li>
+                                    <a href="studio">Studio</a>
+                                </li>
+                                <li>
+                                    <a href="project">Project</a>
+                                </li>
+                                <li>
+                                    <a href="process">Process</a>
+                                </li>
+                                <li>
+                                    <a href="design-build">Design | Build</a>
+                                </li>
+                                <li>
+                                    <a href="contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="links">
+                            <h4 class="text-white">Works:</h4>
+                            <ul style="padding-left: 10px; line-height:40px;" class="text-size-16">
+                                <li>
+                                    <a href="architecture-design">Architecture</a>
+                                </li>
+                                <li>
+                                    <a href="interior-design">Interior Design</a>
+                                </li>
+                                <li>
+                                    <a href="urban-town-planning">Urban / Town Planning</a>
+                                </li>
+                                <li>
+                                    <a href="landscape-design">Landscape Design</a>
+                                </li>
+                                <li>
+                                    <a href="furniture-art-installation">Furniture & Art Installation</a>
+                                </li>
+                                <li>
+                                    <a href="turnkey-construction-vaastu">Turnkey / Construction / Vaastu</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="links">
+                            <h4 class="text-white">Contact Info:</h4>
+                            <div class="lower-content">
+                                <figure class="icon">
+                                    <img src="assets/images/footer-callicon.png" alt="" class="img-fluid">
+                                </figure>
+                                <div class="content text-size-16">
+                                    <span class="text-size-16">Call us at:</span>
+                                    <a class="text-size-16 mb-0 text-decoration-none" href="tel:+917838250379">+91 783-825-0379</a>
+                                    <br>
+                                    <a class="text-size-16 mb-0 text-decoration-none" href="tel:+919352210838">+91 935-221-0838</a>
+                                    <br />
+                                    <%--<a class="text-size-16 mb-0 text-decoration-none" href="tel:+919887387560">+91 988-738-7560</a>--%>
+                                </div>
+                            </div>
+                            <div class="lower-content">
+                                <figure class="icon">
+                                    <img src="assets/images/footer-locationicon.png" alt="" class="img-fluid">
+                                </figure>
+                                <div class="content text-size-16">
+                                    <span class="text-size-16">Our Location:</span>
+                                    <p class="text text-size-16">91, Shanti niketan Colony, Barkat Nagar Tonk Road, Jaipur 302015</p>
+                                </div>
+                            </div>
+                            <div class="lower-content">
+                                <figure class="icon icon3">
+                                    <img src="assets/images/footer-emailicon.png" alt="" class="img-fluid">
+                                </figure>
+                                <div class="content text-size-16"><span class="text-size-16">Email us at:</span><a href="mailto:contact@thedesignsymposium.com" class="text-size-16 mb-0 text-decoration-none">contact@thedesignsymposium.com</a><br><a href="mailto:jobs@thedesignsymposium.com" class="text-size-16 mb-0 text-decoration-none">jobs@thedesignsymposium.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <figure class="footer-image mb-0">
+            <img src="assets/images/logo.png" width="100%" alt="" class="img-fluid">
+        </figure>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 text-left">
+                        <p class="text-size-18">Copyright © 2023-2024 Design Symposium All rights reserved.</p>
+                    </div>
+                    <div class="col-6 text-right" style="z-index: 999;position: relative;">
+                        <p class="text-size-18 text-white">Design & Development By <a href="https://www.aspiretechnosys.com/" target="_blank">ASPIRE TECHNOSYS PVT LTD.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="g-recaptcha"
+        data-sitekey="6LfWi2AnAAAAADiKjvzPZRPIYRZ7cp8rWAyRa1iS"
+        data-size="invisible">
+    </div>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/video_link.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/counter.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/custom-carousel.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/animation_links.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/jquery.easypiechart.min.js"></script>
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/js/magnific.popup.min.js"></script>
+    <script src="assets/js/js/imagesloaded.pkgd.js"></script>
+    <script src="assets/js/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/js/custom.js"></script>    
+    </form>
+</body>
+</html>

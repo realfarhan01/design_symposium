@@ -3,118 +3,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="body" Runat="Server">   
-    <%--<section class="servicepage-section">
-        <div class="container">
-            <h2 class="text-center pb-5">Our Services</h2>
-            <div class="row aos-init aos-animate" data-aos="fade-up">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="service-box">
-                        <div class="box-image">
-                            <figure class="mb-0 servicepage-image">
-                                <img src="assets/images/blog-image1.png" alt="" class="img-fluid">
-                            </figure>                                
-                        </div>
-                        <div class="box-content">
-                            <h5 class="text-white">Architecture Design</h5>
-                            <p class="text-size-20">We offer comprehensive architectural and interior design solutions, crafting spaces that merge beauty and innovation...</p>
-                            <a class="read_more text-decoration-none" href="architecture-design">Read More <i class="fa-solid fa-chevron-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="service-box">
-                        <div class="box-image">
-                            <figure class="mb-0 servicepage-image">
-                                <img src="assets/images/Graphic.jpg" alt="" class="img-fluid">
-                            </figure>                                
-                        </div>
-                        <div class="box-content">
-                            <h5 class="text-white">Interior Design</h5>
-                            <p class="text-size-20">Site Measurement, Space Planning, Furniture Layout, Working Drawings, Quality checks, Snag list, Shopping visit....</p>
-                            <a class="read_more text-decoration-none" href="interior-design">Read More <i class="fa-solid fa-chevron-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="service-box">
-                        <div class="box-image">
-                            <figure class="mb-0 servicepage-image">
-                                <img src="assets/images/blog-image2.jpg" alt="" class="img-fluid">
-                            </figure>                                
-                        </div>
-                        <div class="box-content">
-                            <h5 class="text-white">Urban Town Planning</h5>
-                            <p class="text-size-20"> Architecture plays a crucial role in urban master development plans, shaping the physical fabric and character of cities...</p>
-                            <a class="read_more text-decoration-none" href="urban-town-planning">Read More <i class="fa-solid fa-chevron-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="service-box">
-                        <div class="box-image">
-                            <figure class="mb-0 servicepage-image">
-                                <img src="assets/images/tab-landscape-img-02.jpg" alt="" class="img-fluid">
-                            </figure>                                
-                        </div>
-                        <div class="box-content">
-                            <h5 class="text-white">Landscape Design</h5>
-                            <p class="text-size-20">WE are a professional who designs and plans outdoor spaces such as gardens, parks, trails, and other areas of land....</p>
-                            <a class="read_more text-decoration-none" href="landscape-design">Read More <i class="fa-solid fa-chevron-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="service-box">
-                        <div class="box-image">
-                            <figure class="mb-0 servicepage-image">
-                                <img src="assets/images/blog-image4.jpg" alt="" class="img-fluid">
-                            </figure>                                
-                        </div>
-                        <div class="box-content">
-                            <h5 class="text-white">Furniture Design & Art Installation</h5>
-                            <p class="text-size-20">Furniture plays a vital role in our daily lives, providing functionality, comfort, and aesthetic value...</p>
-                            <a class="read_more text-decoration-none" href="furniture-art-installation">Read More <i class="fa-solid fa-chevron-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="service-box">
-                        <div class="box-image">
-                            <figure class="mb-0 servicepage-image">
-                                <img src="assets/images/tab-installation-img-02.jpg" alt="" class="img-fluid">
-                            </figure>                                
-                        </div>
-                        <div class="box-content">
-                            <h5 class="text-white">Turnkey / Construction / Vaastu</h5>
-                            <p class="text-size-20">Bill of Quantities, Composite Quotations, Material Specifications, Shop Drawings, ....</p>
-                            <a class="read_more text-decoration-none" href="turnkey-construction-vaastu">Read More <i class="fa-solid fa-chevron-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="service-box">
-                        <div class="box-image">
-                            <figure class="mb-0 servicepage-image">
-                                <img src="assets/images/tab-installation-img-01.jpg" alt="" class="img-fluid">
-                            </figure>                                
-                        </div>
-                        <div class="box-content">
-                            <h5 class="text-white">Project Management</h5>
-                            <p class="text-size-20">Project Management Master Schedule, Project Budget, Progress Meetings, Site Program Plan, Contract Administration...</p>
-                            <a class="read_more text-decoration-none" href="project-management">Read More <i class="fa-solid fa-chevron-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>--%>
     <section class="process-sec pro-sec-1">
         <div class="container">
             <h2 class="text-center pb-5 text-uppercase">Our Process</h2>
@@ -122,10 +10,10 @@
                 <div class="col-lg-5 col-md-4">
                     <h5 class="text-white justify-content-center d-flex text-center bg-dark p-3 rounded">Brief & Concept</h5>
                 </div>
-                <div class="col-lg-3 col-md-4 ml-35">
+                <div class="col-lg-3 col-md-4">
                     <h5 class="text-white justify-content-center d-flex text-center bg-dark p-3 rounded">Detail Design</h5>
                 </div>
-                <div class="col-lg-3 col-md-4 ml-35">
+                <div class="col-lg-3 col-md-4">
                     <h5 class="text-white justify-content-center d-flex text-center bg-dark p-3 rounded">Construction</h5>
                 </div>
                 <div class="col mt-4" data-aos="fade-up">
@@ -177,7 +65,7 @@
         <div class="container">
             <h1 class="text-center pb-5">Our Process</h1>
             <div class="row prosess-box">
-                <div class="col-lg-5 col-md-4">
+                <div class="col-12 col-md-12 col-lg-5">
                     <h2 class="text-white justify-content-center d-flex text-center bg-dark p-3 rounded">Brief & Concept</h2>
                 </div>
                 <div class="col mt-12">
@@ -187,7 +75,7 @@
                         <h3 style="color:#fff;"><i class="fa fa-arrow-right"></i>Developed Design</h3>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 ml-35 mt-3" data-aos="fade-up">
+                <div class="col-12 col-md-12 col-lg-4 mt-3" data-aos="fade-up">
                     <h2 class="text-white justify-content-center d-flex text-center bg-dark p-3 rounded">Detail Design</h2>
                 </div>
                 <div class="col mt-12">
@@ -196,7 +84,7 @@
                         <h3 style="color:#fff;"><i class="fa fa-arrow-right"></i>Concept Design</h3>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 ml-35 mt-3" data-aos="fade-up">
+                <div class="col-12 col-md-12 col-lg-4 mt-3" data-aos="fade-up">
                     <h2 class="text-white justify-content-center d-flex text-center bg-dark p-3 rounded">Construction</h2>
                 </div>
                 <div class="col mt-12">

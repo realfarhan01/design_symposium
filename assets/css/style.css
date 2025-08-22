@@ -760,11 +760,15 @@ to {
 .process-section .process_content h2{
     margin-bottom: 46px;
 }
+.service-box {
+    height: calc(100% - 30px);
+}
 .process-section .box-content {
     background: var(--e-global-color-very-dark-mostly-black-blue);
-    padding: 50px 30px 68px;
     border-bottom: 2px solid var(--e-global-color-accent);
     transition: all 0.3s ease-in-out;
+    height: calc(100% - 0px);
+    padding: 25px;
 }
 .process-section .box-content:hover {
     transform: translateY(-5px);
@@ -1365,7 +1369,7 @@ to {
 .footer-section .middle-portion .links ul{
     list-style:none;
     padding:0px;
-    gap:30px;
+    gap:20px;
 }
 .social-media{
     position:relative;
@@ -2511,8 +2515,7 @@ contact-section .contect-box-index:before {
 }
 
 .hire-sec {
-    margin-top: -46px;
-    margin-left: 20%;
+    margin-top: -20px;
     margin-bottom: 28px !important;
 }
 section.process-sec.pro-sec-1 {
@@ -2524,10 +2527,8 @@ section.process-sec.pro-sec-2 {
 .index-from {
     margin-top: 480px;
 }
-@media only screen and (min-width: 660px) {
-
+@media only screen and (min-width: 992px) {
     .process-section .box-content {
-        height: 300px;
         border-radius: 20px;
     }
     section.process-sec.pro-sec-1 {

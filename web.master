@@ -138,7 +138,7 @@
             <div class="container">
                <div class="middle-portion">
                   <div class="row">
-                     <div class="col-lg-8">
+                     <div class="col-lg-9">
                         <div class="links">
                            <ul class="text-size-16 d-md-flex d-block">
                               <li>
@@ -162,7 +162,7 @@
                            </ul>
                         </div>
                      </div>
-                     <div class="col-md-4">
+                     <div class="col-md-3">
                         <ul class="footer-social-media float-start float-md-right">
                            <li>
                               <a href="tel:+917838250379">
@@ -170,7 +170,7 @@
                               </a>
                            </li>
                            <li>
-                              <a href="https://wa.me/+919352210838?text=Hello, I am looking for Best Design Symposium in Jaipur">
+                              <a href="https://wa.me/+919352210838">
                                  <i class="fa-brands fa-whatsapp"></i>
                               </a>
                            </li>
@@ -189,12 +189,12 @@
                      <div class="col-lg-12 mt-4">
                         <div class="links">
                            <div class="row">
-                              <div class="col-md-2">
+                              <div class="col-12 col-md-12 col-lg-2">
                                  <h4 class="text-white">Contact Info:</h4>
                               </div>
-                              <div class="col-md-10">
+                              <div class="col-12 col-md-12 col-lg-10">
                                  <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-12 col-md-12 col-lg-3">
                                        <div class="lower-content">
                                           <figure class="icon">
                                              <img src="assets/images/footer-callicon.png" alt="">
@@ -208,7 +208,7 @@
                                           </div>
                                        </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-12 col-md-12 col-lg-4">
                                        <div class="lower-content">
                                           <figure class="icon">
                                              <img src="assets/images/footer-locationicon.png" alt="">
@@ -221,7 +221,7 @@
                                           </div>
                                        </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-12 col-md-12 col-lg-3">
                                        <div class="lower-content">
                                           <figure class="icon icon3">
                                              <img src="assets/images/footer-emailicon.png" alt="">
